@@ -1,0 +1,27 @@
+# Ignore generated directories
+/out/
+venv
+log
+.settings
+
+#Ignore Docker Files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Ignore generated files
+*.pyc
+*.pyo
+*.orig
+
+# Ignore other specific files
+.coverage
+.project
+.pydevproject
+.pydevproject.bak
+.vagrant
+db.sqlite3
+
+# PyCharm Folders
+.idea
+dev/db/hiway_dev.sql

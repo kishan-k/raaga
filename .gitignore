@@ -13,6 +13,7 @@ docker-compose.yml
 *.pyc
 *.pyo
 *.orig
+*~
 
 # Ignore other specific files
 .coverage
